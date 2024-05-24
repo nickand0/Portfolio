@@ -1,0 +1,282 @@
+@media (max-width:567px) {
+    .accueil img{
+        width:250px
+    }
+    .about-img-div img{
+        width: 200px;
+        height: 250px;
+    } 
+}
+
+body{
+    background-color:rgb(225, 225, 225) ;
+}
+/*navbar*/
+header{
+    position:fixed;
+    margin: auto;
+    width: 100vw;
+    background: linear-gradient(225deg, #d4d4d4, #fbfbfb);
+    box-shadow:  -6px 6px 12px #bebebe,
+             6px -6px 12px #ffffff;
+    z-index: 200;
+    opacity:90%;
+   
+}
+.navbar-brand{
+    padding-bottom: 10px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow:  7px 7px 13px #ababab,
+                 -7px -7px 13px #ffffff;
+}
+.logo-moon{
+    border: none;
+    margin-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow:  7px 7px 13px #ababab,
+                 -7px -7px 13px #ffffff;
+}
+.navbar-toggler{
+    border: none;
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow:  7px 7px 13px #ababab,
+                 -7px -7px 13px #ffffff;
+}
+.nav-link{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+
+}
+/*hover navbar*/
+.navbar-brand:hover,.navbar-toggler:hover,.logo-moon:hover{
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow: inset 7px 7px 13px #ababab,
+            inset -7px -7px 13px #ffffff;   
+
+}
+/*section accueil*/
+.accueil{
+    padding-top: 150px;
+    align-items: center;
+    
+
+}
+.navbar span,.accueil h1{
+    color: rgb(68, 131, 225);
+}
+
+.accueil img{
+   width:300px;
+   margin-bottom: 50px;
+   border-radius: 4px;
+   background: #d6d6d6;
+   box-shadow:  7px 7px 13px #ababab,
+                -7px -7px 13px #ffffff;
+
+}
+/*icon reseau sociaux*/
+.logo-sociaux{
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow:  7px 7px 13px #ababab,
+                 -7px -7px 13px #ffffff;
+}
+/*icon reseau sociaux et bouton hire me hover*/
+.logo-sociaux:hover,.bouton-engager:hover{
+    text-decoration: none;
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow: inset 7px 7px 13px #ababab,
+            inset -7px -7px 13px #ffffff;  
+}
+/*bouton hire me*/
+.bouton-engager{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow:  7px 7px 13px #ababab,
+                 -7px -7px 13px #ffffff;
+}
+
+/*section about*/
+.about img{
+    height:400px;
+    width:300px;
+    border-radius: 50% 4px 4px 4px;
+   background: #d6d6d6;
+   box-shadow:  7px 7px 13px #ababab,
+                -7px -7px 13px #ffffff;
+}
+.about img:hover{
+    border-radius:4px 50%  4px 4px;
+    background: #d6d6d6;
+    box-shadow:  7px 7px 13px #ababab,
+                 -7px -7px 13px #ffffff;
+}
+.about span{
+    color: rgb(68, 131, 225);
+}
+
+/*bouton telechargement CV*/
+.download-button{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    border-radius: 4px;
+    background: #d6d6d6;
+    box-shadow:  7px 7px 13px #ababab,
+                 -7px -7px 13px #ffffff;
+    
+}
+.download-button:hover{
+    transition: all 1s;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+/*position */
+.css,.BT,.tailwind{position: relative;
+    width:200px;
+    height: 200px;
+   
+}
+.css-externe,.BT-externe,.tailwind-externe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left:24px;
+    top: 25px;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #4882ed, #cf2c2c);
+    box-shadow:  5px 5px 10px #a9a9a9,
+             -5px -5px 10px #ffffff;
+    z-index: 1;
+}
+.css-interne,.BT-interne,.tailwind-interne{
+    position: absolute;
+    top:45px;
+    left:44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #d6d6d6;
+    box-shadow: inset 5px 5px 10px #a9a9a9,
+            inset -5px -5px 10px #ffffff;
+    z-index: 2;
+}
+
+/*section service */
+.card{
+    border-radius: 14px;
+    background: linear-gradient(225deg, #d6e6f3, #7ca4f6);
+    box-shadow:  -9px 9px 18px #bababa,
+                 9px -9px 18px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.card:hover{
+    color: white;
+    border-radius: 14px;
+    background: linear-gradient(225deg, #a8b7f7, #3b79cf);
+    box-shadow: inset 9px 9px 18px #004dc9,
+            inset -9px -9px 18px #0075ff;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn-primary{
+    border: none;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #494949, #3d3d3d);
+    box-shadow:  5px 5px 3px #292929,
+                 -5px -5px 3px #5f5f5f;
+   
+}
+.btn-primary:hover{
+   
+    border-radius: 11px;
+    background: #444444;
+    box-shadow: inset 5px 5px 3px #292929,
+                inset -5px -5px 3px #5f5f5f;
+   
+}
+.service span{
+    color: rgb(68, 131, 225);
+}
+
+ /*section contact*/
+ .contact-interne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #d4d4d4, #fbfbfb);
+    box-shadow:  6px 6px 12px #bebebe,
+             -6px -6px 12px #ffffff;
+    
+    
+ }
+ .contact span{
+    color:rgb(68, 131, 225);
+ }
+
+ .form{
+    border-radius: 5px;
+    background: linear-gradient(145deg, #d4d4d4, #fbfbfb);
+    box-shadow:  6px 6px 12px #bebebe,
+             -6px -6px 12px #ffffff;
+ }
+ .form-control{
+    border-radius: 6px;
+    background: #ebebeb;
+    box-shadow: inset 5px 5px 0px #bebebe,
+            inset -5px -5px 0px #ffffff;
+ }
+ .btn-secondary{
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #003a4f, #003143);
+
+ }
+ .btn-secondary:hover{
+    border-radius: 50px;
+background: linear-gradient(145deg, #003a4f, #003143);
+box-shadow:  5px 5px 10px #001f2a,
+             -5px -5px 10px #004d6a;
+ }
+
+  /*section footer*/
+  footer{
+    background: linear-gradient(225deg, #d4d4d4, #fbfbfb);
+    box-shadow:  -6px 6px 12px #bebebe,
+             6px -6px 12px #ffffff;
+  }
